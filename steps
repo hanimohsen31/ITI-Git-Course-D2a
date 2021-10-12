@@ -20,4 +20,14 @@
  1117  git merge test
  1118  git push origin main
  1119  history
+  1120  git add .
+ 1121  git commit -m "steps"
+ 1122  git push origin main
+
+#remove remotly
+git push origin:dev
+
+#remove localy
+git branch -D dev
+
 
