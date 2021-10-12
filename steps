@@ -1,0 +1,10 @@
+  984  git init
+  985  touch hani{1..5}
+  986  git add .
+  987  git commit -m "First Comm"
+  988  git branch -M main
+  989  get remote add origin https://github.com/hanimohsen31/PythonGitCourseD2.git
+  990  git remote add origin https://github.com/hanimohsen31/PythonGitCourseD2.git
+  991  git push origin main
+  993  history
+
