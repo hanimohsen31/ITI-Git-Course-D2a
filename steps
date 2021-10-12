@@ -1,10 +1,23 @@
-  984  git init
-  985  touch hani{1..5}
-  986  git add .
-  987  git commit -m "First Comm"
-  988  git branch -M main
-  989  get remote add origin https://github.com/hanimohsen31/PythonGitCourseD2.git
-  990  git remote add origin https://github.com/hanimohsen31/PythonGitCourseD2.git
-  991  git push origin main
-  993  history
+ 1098  touch hani1
+ 1099  git init 
+ 1100  git add .
+ 1101  git commit "first"
+ 1102  git commit -m "first"
+ 1103  git remote add origin https://github.com/hanimohsen31/PyGD2.git
+ 1104  git branch -M main
+ 1105  git push origin main
+ 1106  git branch
+ 1107  git branch dev
+ 1108  git branch test
+ 1109  git checkout test
+ 1110  touch hani104
+ 1111  vi hani104
+ 1112  git add .
+ 1113  git commit "branch test"
+ 1114  git commit -m "branch test"
+ 1115  git push origin test
+ 1116  git checkout main
+ 1117  git merge test
+ 1118  git push origin main
+ 1119  history
 
