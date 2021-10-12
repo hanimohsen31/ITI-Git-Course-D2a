@@ -1,0 +1,10 @@
+ 1124  git tag -a v0.0.3 -m "version 0.0.3"
+ 1125  git push --tags
+ 1135  git tag
+ 
+ #To delete a remote tag 
+ git push origin --delete "version 0.0.3"
+ 
+ #To delete a local tag
+git tag -d "version 0.0.3"
+
